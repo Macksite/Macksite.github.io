@@ -15,13 +15,14 @@ body {
     font-size: xx-large;
     color: #496dff;
 }
+.ASDF{
+    display: grid;
+    background-color: #1fc736;
+}
 
 .A{
     border-radius: 22px;
-    border-bottom-left-radius: 80px;
     text-shadow: #1d271e;
-    scroll-snap-type: mandatory;
-    scroll-behavior: smooth;
     background-color: #ff87d1;
     height: 240px;
     font-size: 90px;

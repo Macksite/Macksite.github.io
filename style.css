@@ -16,15 +16,24 @@ body {
     color: #496dff;
 }
 .ASDF{
-    display: grid;
+    
     background-color: #1fc736;
 }
+.HAM{
+    background-color: #ffffff;
+    background: linear-gradient(rgb(9, 247, 147),rgb(255, 39, 39),rgb(138, 206, 252));
+}
 
+.HAMSTER{
+    margin-left: 99999px;
+    position:static
+}
 .A{
+    
     border-radius: 22px;
     text-shadow: #1d271e;
     background-color: #ff87d1;
-    height: 240px;
+    height: 500px;
     font-size: 90px;
     shape-margin: 7878px;
 }

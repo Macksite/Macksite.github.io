@@ -1,7 +1,7 @@
 body {
     background-size: cover;
     background-attachment: fixed;
-    background-color: hsl(240, 62%, 58%);
+    background-color: rgb(214, 81, 110);
     background-image: url("./img/cover.jpg");
     font-family: 'Klee One', cursive;
     margin-left: 2rem;
@@ -9,7 +9,7 @@ body {
 }
 .header {
     background-color: #fff;
-    border-radius: 10px;
+    
     margin-top: 2rem;
     padding: 50px;
     font-size: xx-large;
@@ -17,7 +17,15 @@ body {
 }
 
 .A{
+    border-radius: 22px;
+    border-bottom-left-radius: 80px;
+    text-shadow: #1d271e;
+    scroll-snap-type: mandatory;
+    scroll-behavior: smooth;
     background-color: #ff87d1;
+    height: 240px;
+    font-size: 90px;
+    shape-margin: 7878px;
 }
 
 

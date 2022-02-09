@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja" prefix="og: http://ogp.me/ns#">
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8>
         <title>mckst</title>
         <meta name="description" content="test">
         <meta name="author" content="Macksite">
@@ -19,21 +19,39 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
     </head>
+    <script>
+        function OpenURL(){
+        var Word = prompt("?");
+        var URL = "https://twitter.com/search?q="+Word;
+        return URL;
+        }
+    </script>
     <body>
-        <div class="header">
+
+        <div class="button" onclick="href='https://google.com'">
+        <button1 onclick="location.href='https:google.com'"> ACDE</button1>
             <a href="https://twitter.com/search?q=累進課税">
                 地獄    
             </a>
         </div>
         <div class="main">
-            jyfjy
+            jyfjyi
         </div>
-        <button onclick="location.href='https://twitter.com/search?q=貧困'">
+        <button onclick=
+        'location.href=OpenURL()'
+        >
+            <span>Twitter</span>
+            <span>Twitter</span>
+            <span>Twitter</span>
+            <span>Twitter</span>
+        </button>
+        <button onclick="location.href='https://twitter.com/search?q=累進課税'">
             <span></span>
             <span></span>
             <span></span>
             <span></span>
             <span>地獄</span>
         </button>
+        
     </body>
 </html>

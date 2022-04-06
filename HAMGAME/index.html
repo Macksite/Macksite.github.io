@@ -20,6 +20,21 @@
         <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
     </head>
     <script>
+        var akane = screen
+        function dragstart_handler(ev) {
+    // Add the target element's id to the data transfer object
+    let HAMMY = "HAMMMMMM";
+    ev.dataTransfer.setData("text/prain", ev.target.HAMMY);
+    let img = new Image();
+    img.src="../../HELLHAM/HAMimg/HELL HAMSTER.jpg";
+
+}
+window.addEventListener('DOMContentLoaded', () => {
+    // Get the element by id
+    const element = document.getElementById("123");
+    // Add the ondragstart event listener
+    element.addEventListener("dragstart", dragstart_handler);
+});
         function HAMHAM(){
         alert("ハムむむむむむむむムむむむむむむむムむむむむむむむムむむむむむむむムむむむむむむむムむむむむむむむムむむむむむむむムむむむむむむむムむむむむむむむムむむむむむむむムむむむむむむむムむむむむむむむムむむむむむむむムむむむむむむむムむむむむむむむムむむむむむむむムむむむむむむむムむむむむむむむムむむむむむむむ")
         }
@@ -28,9 +43,19 @@
         }
     </script>
     <body>
-        <image onclick="aaa()" >
+        <picture id="123"  draggable="true"  >
             <source srcset="../../HELHAM/HAMimg/HELL HAMSTER.jpg">
             <img src="../../HELLHAM/HAMimg/HELL HAMSTER.jpg" alt="" width="800" height="300"/>
-        </image>
-        <p onclick="aleat('ASDAS')">a</p>
+            <source> 
+        </picture>
+        <picture onclick="alert('111')"  >
+            <source srcset="../../HELHAM/HAMimg/HELL HAMSTER.jpg">
+            <img src="../../HELLHAM/HAMimg/HELL HAMSTER.jpg" alt="" width="800" height="300"/>
+            <source> 
+        </picture>
+        <picture dropzone="" ondrop="HAMHAM()" >
+            <source srcset="../../HELHAM/HAMimg/HELL HAMSTER.jpg">
+            <img src="../../HELLHAM/HAMimg/HELL HAMSTER.jpg" alt="" width="800" height="300"/>
+            <source> 
+        </picture>
     </body>
